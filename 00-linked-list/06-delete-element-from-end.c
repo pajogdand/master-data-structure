@@ -18,7 +18,7 @@ void insert(int data)
     
     if(first == NULL)
     {
-        printf("Element is first element");        
+        //Element is first element
         first = t;
         last  = t;
     }
@@ -35,6 +35,49 @@ void display(struct node * p)
         printf("%d " , p->data);
         p = p->next;       
     }
+    printf("\n");
+}
+
+int delete_element_from_end(struct node *p)
+{
+    struct node *q = NULL;
+    struct node *r = NULL;
+    
+    while(p!=NULL)
+    {
+        r = q;
+        q = p;
+        p=p->next;
+    }
+
+    r->next =NULL;
+    
+    int melelya_data= q->data;
+    free(q);
+
+    return melelya_data;
+}
+
+int delete_at_given_pos(struct node *p, int pos , int size)
+{
+    struct node *q = NULL;
+    struct node *r = NULL;
+    
+    for(int i=0;i<size;i++)
+    {
+        r = q;
+        q = p;
+        p=p->next;
+        if(i == pos)
+            break;
+    }
+
+    r->next = p;
+    
+    int melelya_data = q->data;
+    free(q);
+
+    return melelya_data;
 }
 
 int main(void)
@@ -50,5 +93,10 @@ int main(void)
     }
 
     display(first);
-    
+    printf("the delteted data = %d\n" , delete_element_from_end(first));
+    display(first);
+    printf("the delteted data = %d\n" , delete_at_given_pos(first,1,4));
+    display(first);   
+
+    exit(0);  
 }
