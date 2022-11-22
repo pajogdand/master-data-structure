@@ -95,7 +95,7 @@ int main(void)
     display(first);
     printf("the delteted data = %d\n" , delete_element_from_end(first));
     display(first);
-    printf("the delteted data = %d\n" , delete_at_given_pos(first,1,4));
+    printf("the delteted data = %d\n" , delete_at_given_pos(first,0,4));
     display(first);   
 
     exit(0);  

@@ -1,0 +1,29 @@
+some more porgrams in c for linked list
+
+Signed-off-by: Pravin Jogdand Jogdand <pravin.jogdand.jogdand@wdc.com>
+
+# Please enter the commit message for your changes. Lines starting
+# with '#' will be ignored, and an empty message aborts the commit.
+#
+# Committer: Pravin Jogdand Jogdand <pravin.jogdand.jogdand@wdc.com>
+#
+# On branch main
+# Your branch is up to date with 'origin/main'.
+#
+# Changes to be committed:
+#	new file:   00-linked-list/02-display-liked-list-rec.c
+#	new file:   00-linked-list/03-sumof-nodes.c
+#	new file:   00-linked-list/04-max-in-ll.c
+#	new file:   00-linked-list/05-insert-element.c
+#	new file:   00-linked-list/06-delete-element-from-end.c
+#
+# Untracked files:
+#	.vscode/
+#	00-linked-list/.vscode/
+#	00-linked-list/00-display-linked-list.exe
+#	00-linked-list/01-display-liked-list-rec.exe
+#	00-linked-list/02-display-liked-list-rec.exe
+#	00-linked-list/03-sumof-nodes.exe
+#	00-linked-list/04-max-in-ll.exe
+#	00-linked-list/05-insert-element.exe
+#
