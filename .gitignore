@@ -1,0 +1,5 @@
+﻿# Compiled outputs
+*.exe
+*.out
+*.o
+*.dll
